@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800;900&family=Satisfy&display=swap');
+
+/* 
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+
+*/
+
+
+
+/* The CSS code `*{ margin: 0; padding: 0; }` sets the margin and padding of all elements on the page
+to 0. This means that there will be no extra space or padding around any elements, and they will be
+positioned flush against the edges of their containers. */
+*{
+    margin: 0;
+    padding: 0;
+}

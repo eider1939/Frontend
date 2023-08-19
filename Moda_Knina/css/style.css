@@ -1,0 +1,202 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5%;
+    height: 80px;
+    background-color: #9CBA41;
+
+}
+
+nav .logo{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav .logo img{
+    width: 80px;
+    height: 80px;
+}
+nav .list{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .list li{
+    list-style: none;
+}
+
+nav .list a{
+    display: block;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+nav .list a:hover{
+    background-color: #476932;
+}
+
+
+#toogle{
+    position: absolute;
+    top: -100px;
+}
+
+nav .icon-bars{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav .icon-bars .line{
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all .3 ease-in-out;
+}
+
+.section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+#inicio {
+    background-image: url("../img/inicio_1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+#inicio .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#inicio .button {
+    background-color: #9CBA41;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#inicio .row {
+    display: flex;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 0;
+}
+
+#inicio .row h1 {
+    margin-right: 10px;
+    color: black;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    nav .logo{
+        float: none;
+        width: auto;
+        justify-content: center;
+    }
+    nav .list{
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0; 
+        right: 0;
+        top: 80px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #9CBA41;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+
+    }
+
+    nav .list a {
+        font-size: 20px;
+    }
+    nav :checked ~ .list {
+        bottom: 0;
+        display: initial;
+    }
+    nav .icon-bars {
+        display: block;
+    }
+
+    .section {
+        height: 500px;
+        width: 300px;
+    }
+    #inicio{
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+}
