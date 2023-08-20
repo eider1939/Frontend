@@ -1,8 +1,8 @@
 ## Proyectos de Frontend
 
 ### Lenguajes usados
-![HTML Logo](logos/html.png)
-![CSS Logo](logos/css.png)
+![HTML Logo]([logos/html.png](https://github.com/santiagoramirez10/Icons/blob/main/HTML5.png))
+![CSS Logo]([logos/css.png](https://github.com/santiagoramirez10/Icons/blob/main/CSS3.png))
 ![JavaScript Logo](logos/javascript.png)
 
 
