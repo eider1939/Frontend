@@ -1,17 +1,18 @@
 ## Proyectos de Frontend
 
-### Lenguajes usados
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
-</div>
 
 Este repositorio contiene una serie de retos y proyectos relacionados con el desarrollo frontend de aplicaciones web. 
 Estos proyectos son parte de una serie de ejercicios individuales diseñados para mejorar y desarrollar habilidades 
 en la creación de la interfaz visible de aplicaciones web. El enfoque principal de estos proyectos es el aprendizaje 
 y la práctica de tecnologías fundamentales como HTML, CSS y JavaScript.
 A través de estos ejercicios, se crean diversos componentes y funcionalidades para las páginas web.
+
+### Lenguajes usados
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
+</div>
 
 ### Objetivo
 El objetivo principal de este repositorio es  practicar y mejorar habilidades en el desarrollo frontend. A medida que se trabaja en estos 
