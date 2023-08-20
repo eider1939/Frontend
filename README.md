@@ -1,10 +1,11 @@
 ## Proyectos de Frontend
 
 ### Lenguajes usados
+<div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/><br>
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
-
+</div>
 
 Este repositorio contiene una serie de retos y proyectos relacionados con el desarrollo frontend de aplicaciones web. 
 Estos proyectos son parte de una serie de ejercicios individuales diseñados para mejorar y desarrollar habilidades 
