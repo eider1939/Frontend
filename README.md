@@ -1,4 +1,11 @@
 ## Proyectos de Frontend
+
+### Lenguajes usados
+![HTML Logo](logos/html.png)
+![CSS Logo](logos/css.png)
+![JavaScript Logo](logos/javascript.png)
+
+
 Este repositorio contiene una serie de retos y proyectos relacionados con el desarrollo frontend de aplicaciones web. 
 Estos proyectos son parte de una serie de ejercicios individuales diseñados para mejorar y desarrollar habilidades 
 en la creación de la interfaz visible de aplicaciones web. El enfoque principal de estos proyectos es el aprendizaje 
