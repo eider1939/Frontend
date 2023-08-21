@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
         const nothingfound=document.getElementById('nothing-alert');
         let number=0;
         cards.forEach(function (card){
-            const name=card.querySelectorAll('h2').textContent.toLowerCase();
+            const name=card.querySelector('h2').textContent.toLowerCase();
             if(name.includes(searchQuery.toLowerCase())){
                 nothingfound.style.display='none';
                 card.style.display='flex';
